@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "zoommod",
+  "version": "${version}",
+  "name": "Zoommod",
+  "description": "adds ability to zoom in",
+  "authors": [
+    "imperzer0"
+  ],
+  "contact": {
+    "website": "https://github.com/imperzer0/zoommod.git"
+  },
+  "license": "MIT",
+  "icon": "assets/zoommod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.imperzer0.zoommod.client.ZoommodClient"
+    ]
+  },
+  "mixins": [
+    "zoommod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
