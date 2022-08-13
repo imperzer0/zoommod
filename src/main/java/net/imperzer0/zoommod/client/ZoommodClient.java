@@ -61,6 +61,6 @@ public class ZoommodClient implements ClientModInitializer
 	public void onInitializeClient()
 	{
 		binding = KeyBindingHelper.registerKeyBinding(
-				new KeyBinding("key.zoommod.zoom", InputUtil.Type.KEYSYM, InputUtil.GLFW_KEY_C, "caregory.zoommod.zoom"));
+				new KeyBinding("key.zoommod.zoom", InputUtil.Type.KEYSYM, InputUtil.GLFW_KEY_C, "category.zoommod.zoom"));
 	}
 }
